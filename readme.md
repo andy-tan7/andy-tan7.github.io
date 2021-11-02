@@ -3,9 +3,12 @@
 ## Purpose
 This readme will guide a user on the process of hosting their resume on GitHub Pages. The documentation here will serve to guide completely new users as well as provide a refresher for experienced users. Here, you will find ways to convert your resume into Markdown format, learn how to upload it to GitHub Pages, and apply a theme with Jekyll.  
 
+### Technical Writing
+This document is inspired by Andrew Etter's book, [Modern Technical Writing]. Etter suggests making static websites to utilize their speed, simplicty, portability, and security. For resumes, you'll find that keeping them up to date after sending them out is a challenge, and hosting them as static webpages is an easy solution to this problem. The following guide will demonstrate how simple it is to host your resume as a static webpage.
+
 ## Prerequisites
 
-This guide assumes that you have access to a web browser. It will not be using any command line interfaces (e.g., for Git).  
+This guide assumes that you have access to a web browser; it will not be using any command line interfaces (e.g., Git).  
 Our technology stack will be Visual Studio Code as the text editor, GitHub Pages as the host, and Jekyll as our static site generator.
 
 * Text Editor: Visual Studio Code
