@@ -9,7 +9,7 @@ This document is inspired by Andrew Etter's book, [Modern Technical Writing]. Et
 ## Prerequisites
 
 This guide assumes that you have access to a web browser; it will not be using any command line interfaces (e.g., Git).  
-Our technology stack will be Visual Studio Code as the text editor, GitHub Pages as the host, and Jekyll as our static site generator.
+For our technology stack, we will be using Visual Studio Code as the text editor, GitHub Pages as the host, and Jekyll as our static site generator.
 
 * Text Editor: Visual Studio Code
 * Host: GitHub Pages
@@ -33,6 +33,7 @@ Our technology stack will be Visual Studio Code as the text editor, GitHub Pages
 3. Save this file as **"index.md"**. This will come in handy later when uploading to GitHub.
 4. Complete your markdown resume. See [more resources](#more-resources) for more of a guide on how to do this.
     * Tip: you can preview your markdown file while editing it in VS Code by clicking on the _Open Preview to the Side_ button in the top right corner of the editor. To use the keyboard shortcut for this, press Ctrl+K, release Ctrl, and press V.  
+    ![Open preview]  
 > Note: you may want to avoid using tables in markdown; you may find that the Jekyll themes we use later do not properly support markdown tables. 
 
 ### Upload your content to GitHub
@@ -44,7 +45,7 @@ Our technology stack will be Visual Studio Code as the text editor, GitHub Pages
       * When you're ready, click the **Create repository** button at the bottom of the page.
 ![Create repository screenshot]
 
-At this point, you will be taken to the **Code** tab in your new repository.
+    At this point, you will be taken to the **Code** tab in your new repository.
 
 2. Upload your resume file.
     * If you did not add a README file, click on __*uploading an existing file*__ in the blue *Quick setup* box.
@@ -53,7 +54,7 @@ At this point, you will be taken to the **Code** tab in your new repository.
     * Optionally, you can write a description for the change you are about to commit.
     * Once you're ready, click the **Commit changes** button to confirm your upload.
 
-From here, you should have a repository with an index.md file (and a readme if you chose to include one).
+    From here, you should have a repository with an index.md file (and a readme if you chose to include one).
 
 ### Add a theme for your resume with Jekyll.
 
@@ -65,10 +66,10 @@ From here, you should have a repository with an index.md file (and a readme if y
     * I used the *Slate* theme for my own resume, which provides a clean and appealing look.
     * Once you're satisfied with your choice, click the **Select theme** button to confirm your selection.
 
-At this point, you will be taken back to the Settings page, and GitHub Pages will automatically publish your site for you. You can click the link in the green box in the Settings → Pages menu to preview it.
+    At this point, you will be taken back to the Settings page, and GitHub Pages will automatically publish your site for you. You can click the link in the green box in the Settings → Pages menu to preview it.
 
-![Your site is published screenshot]
-> Note: it will often take several minutes for your changes to be applied. Don't be alarmed if it seems like nothing happened when you submit changes. Simply wait a few minutes and refresh the page, and then you should see your changes.
+    ![Your site is published screenshot]
+    > Note: it will often take several minutes for your changes to be applied. Don't be alarmed if it seems like nothing happened when you submit changes. Simply wait a few minutes and refresh the page, and then you should see your changes.
 
 ### Set a proper title for your resume
 You will notice that the title at the top of the page is currently the name of your repository. Let's fix this.
@@ -91,7 +92,7 @@ Here are some extra links to support your markdown writing process if needed.
 * Andrew Etter's book, [Modern Technical Writing]. 
 
 ## Authors and Acknowledgements
-Credit to me (Andy Tan) for writing this article, and to the various contributors of the [Slate] Jekyll theme. Also, special thanks to my peers in Group 7 for providing peer review: Faith de Leon, Michael Bathie, Koye Fatoki, and Tuan Le.
+Credit to me (Andy Tan) for writing this article, and to the various contributors of the [Slate] Jekyll theme. Also, special thanks to my peers in Group 7 for providing peer review: Faith de Leon, Michael Bathie, Koye Fatoki, and Tuan Le. Also, thanks to Andrew Etter for writing an excellent book on technical writing.
 
 ## FAQ
 
@@ -105,6 +106,7 @@ Credit to me (Andy Tan) for writing this article, and to the various contributor
 [Slate]: https://github.com/pages-themes/slate
 [Modern Technical Writing]: https://www.goodreads.com/book/show/28433138-modern-technical-writing
 
+[Open preview]: images/open_preview.png "Open preview to the side"
 [Create repository screenshot]: images/create_repository.png "New repository settings"
 [Your site is published screenshot]: images/site_published.png "Your site is published at..."
 [Edit this file]: images/edit_file.png "Edit file button"
